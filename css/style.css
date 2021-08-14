@@ -21,3 +21,45 @@ header{
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+.img-top{
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.conteudo{
+    margin: 1rem 4rem 4rem 4rem;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+}
+
+.tabs:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+
+footer{
+    width: 100%;
+    height: 6vh;
+    background-color: black;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
+
+.final{
+    position: absolute;
+    margin: 0.6rem;
+    font-size: 1rem;
+    
+}
+
+.final a, .final p{
+    color: rgb(160, 150, 150);
+}

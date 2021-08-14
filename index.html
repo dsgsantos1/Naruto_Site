@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naruto Uzumaki</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
@@ -14,28 +19,47 @@
 
         <div class="info">
             <div class="top">
-                <button class="tabs" onclick="openCity('London')">História</button>
-                <button class="tabs" onclick="openCity('Paris')">Jutsus</button>
-                <button class="tabs" onclick="openCity('Tokyo')">Contato</button>
+                <button class="tabs" onclick="openElements('Historia')">História</button>
+                <button class="tabs" onclick="openElements('Jutsus')">Jutsus</button>
+                <button class="tabs" onclick="openElements('Contato')">Contato</button>
             </div>
         </div>
 
-          <div id="London" class="w3-container city">
-            <h2>London</h2>
-            <p>London is the capital city of England.</p>
-          </div>
-          
-          <div id="Paris" class="w3-container city" style="display:none">
-            <h2>Paris</h2>
-            <p>Paris is the capital of France.</p> 
-          </div>
-          
-          <div id="Tokyo" class="w3-container city" style="display:none">
-            <h2>Tokyo</h2>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
+        <img class = "img-top" src="/images/naruto_sennin.jpg.jpg" alt="">
 
     </header>
+
+    <section class="conteudo">
+
+      <div id="Historia" class="element">
+        <h1 class="titulo">HISTÓRIA</h1>
+        
+        <img src="/images/naruto_criança.png" alt="">
+        <p>Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) é um shinobi de Konohagakure, também sendo a reencarnação atual de Asura e o protagonista homônimo da franquia Naruto. Ele se tornou o jinchūriki de Kurama no dia de seu nascimento, um destino que o levou a ser condenado ao ostracismo e ser negligenciado por toda a aldeia durante toda a sua infância.</p>
+      
+      </div>
+      
+      <div id="Jutsus" class="element" style="display:none">
+        <h1 class="titulo">JUTSUS</h1>
+        <p>Paris is the capital of France.</p> 
+      </div>
+      
+      <div id="Contato" class="element" style="display:none">
+        <h1 class="titulo">CONTATO</h1>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+  </section>
+
+    <footer class="rodape">
+
+      <div class="final">
+        <p>BY <a href="https://github.com/dsgsantos1">DANIEL DOS SANTOS</a></p>
+      </div>
+
+    </footer>
+    
+    <script type="text/javascript" src="./js/menu.js"></script>
 
 </body>
 </html>
