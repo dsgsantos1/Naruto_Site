@@ -29,7 +29,7 @@ header{
 }
 
 .conteudo{
-    margin: 1rem 4rem 4rem 4rem;
+    margin: 1rem 4rem 4em 4rem;
 }
 
 .titulo{
@@ -43,14 +43,30 @@ header{
     background-color: rgb(73, 73, 73);
 }
 
+.coluna p img{
+    float: left;
+    margin-right: 2rem;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.coluna{
+    columns: 2;
+    gap: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    /* text-indent: 1.2em; */
+}
 
 footer{
     width: 100%;
     height: 6vh;
     background-color: black;
-    /* position: absolute;
     bottom: 0;
-    left: 0; */
+    position: absolute; 
+    
 }
 
 .final{
@@ -63,3 +79,4 @@ footer{
 .final a, .final p{
     color: rgb(160, 150, 150);
 }
+
