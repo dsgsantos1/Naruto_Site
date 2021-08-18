@@ -25,6 +25,7 @@ header{
 
 button .tabs{
     color: white;
+    border: 0;
 }
 
 .img-top{
