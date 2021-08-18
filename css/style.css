@@ -20,15 +20,21 @@ header{
     border-color: black;
     font-size: 1.2rem;
     font-weight: bold;
+    color: white;
+}
+
+button .tabs{
+    color: white;
 }
 
 .img-top{
     width: 100%;
     height: 12rem;
     object-fit: cover;
+
 }
 
-.conteudo{
+.conteudo-historia{
     margin: 1rem 4rem 4em 4rem;
 }
 
@@ -41,6 +47,8 @@ header{
 
 .tabs:hover{
     background-color: rgb(73, 73, 73);
+    /* transition: 1s;
+    border-radius: 0.5em; */
 }
 
 .coluna p img{
@@ -52,6 +60,8 @@ header{
     border-radius: 10px;
 }
 
+
+
 .coluna{
     columns: 2;
     gap: 2rem;
@@ -60,12 +70,96 @@ header{
     /* text-indent: 1.2em; */
 }
 
+
+
+::placeholder{
+	opacity: 0.7;
+	color: black;
+}
+
+conteiner{
+    margin: 10px;
+}
+
+conteiner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+conteiner p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+form{
+    margin-top: 6.4em;
+    margin-bottom: 6.4rem;
+    background-color: black;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 1.2rem; */
+    border-radius: 5px;
+}
+
+form h3{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+form input[type=text], form input[type="email"]{
+    width:100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    color: black;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    background-color: #be3326;
+    color: white;
+    border: 0;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+form input[name=msg]{
+    height: 55px;
+}
+
+form input[type=submit]:hover{
+    background-color: #97170c;
+    transition: 0.5s;
+}
+
 footer{
     width: 100%;
     height: 6vh;
     background-color: black;
     bottom: 0;
     position: absolute; 
+    text-align: center;
     
 }
 
@@ -77,6 +171,7 @@ footer{
 }
 
 .final a, .final p{
+    
     color: rgb(160, 150, 150);
 }
 

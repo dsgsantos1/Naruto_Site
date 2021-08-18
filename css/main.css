@@ -1,6 +1,7 @@
 html, body{
     width: 100%;
-    background-color: #403C3A;
+    /* background: #403C3A; */
+    background-image: linear-gradient(to bottom left, red, black, gray);
     font-family: 'Roboto', sans-serif;
 }
 
